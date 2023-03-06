@@ -3,7 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Studio\Totem\Result;
+use Cebugle\Totem\Result;
 
 class TotemResultFactory extends Factory
 {

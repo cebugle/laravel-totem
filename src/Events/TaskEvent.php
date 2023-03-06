@@ -1,10 +1,10 @@
 <?php
 
-namespace Studio\Totem\Events;
+namespace Cebugle\Totem\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Studio\Totem\Task;
+use Cebugle\Totem\Task;
 
 class TaskEvent extends Event
 {

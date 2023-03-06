@@ -1,9 +1,9 @@
 <?php
 
-namespace Studio\Totem;
+namespace Cebugle\Totem;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Studio\Totem\Traits\HasParameters;
+use Cebugle\Totem\Traits\HasParameters;
 
 class Frequency extends TotemModel
 {

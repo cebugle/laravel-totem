@@ -1,9 +1,9 @@
 <?php
 
-namespace Studio\Totem\Http\Controllers;
+namespace Cebugle\Totem\Http\Controllers;
 
-use Studio\Totem\Contracts\TaskInterface;
-use Studio\Totem\Task;
+use Cebugle\Totem\Contracts\TaskInterface;
+use Cebugle\Totem\Task;
 
 class ExecuteTasksController extends Controller
 {

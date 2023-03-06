@@ -1,15 +1,15 @@
 <?php
 
-namespace Studio\Totem\Tests\Feature;
+namespace Cebugle\Totem\Tests\Feature;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\Facades\Event;
-use Studio\Totem\Events\Executed;
-use Studio\Totem\Events\Executing;
-use Studio\Totem\Providers\ConsoleServiceProvider;
-use Studio\Totem\Result;
-use Studio\Totem\Task;
-use Studio\Totem\Tests\TestCase;
+use Cebugle\Totem\Events\Executed;
+use Cebugle\Totem\Events\Executing;
+use Cebugle\Totem\Providers\ConsoleServiceProvider;
+use Cebugle\Totem\Result;
+use Cebugle\Totem\Task;
+use Cebugle\Totem\Tests\TestCase;
 
 class TaskExecutionTest extends TestCase
 {

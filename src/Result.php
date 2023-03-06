@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio\Totem;
+namespace Cebugle\Totem;
 
 use Database\Factories\TotemResultFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

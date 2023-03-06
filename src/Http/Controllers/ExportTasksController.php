@@ -1,8 +1,8 @@
 <?php
 
-namespace Studio\Totem\Http\Controllers;
+namespace Cebugle\Totem\Http\Controllers;
 
-use Studio\Totem\Contracts\TaskInterface;
+use Cebugle\Totem\Contracts\TaskInterface;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 
 class ExportTasksController extends Controller

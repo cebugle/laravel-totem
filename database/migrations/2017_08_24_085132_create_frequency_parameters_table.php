@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Studio\Totem\Database\TotemMigration;
+use Cebugle\Totem\Database\TotemMigration;
 
 class CreateFrequencyParametersTable extends TotemMigration
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio\Totem\Traits;
+namespace Cebugle\Totem\Traits;
 
 use Closure;
 use Illuminate\Console\Scheduling\ManagesFrequencies;
@@ -10,8 +10,8 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Arr;
 use function json_decode;
 use function request;
-use Studio\Totem\Frequency;
-use Studio\Totem\Task;
+use Cebugle\Totem\Frequency;
+use Cebugle\Totem\Task;
 
 trait HasFrequencies
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Studio\Totem\Tests\Feature;
+namespace Cebugle\Totem\Tests\Feature;
 
-use Studio\Totem\Http\Middleware\Authenticate;
-use Studio\Totem\Tests\TestCase;
-use Studio\Totem\Totem;
+use Cebugle\Totem\Http\Middleware\Authenticate;
+use Cebugle\Totem\Tests\TestCase;
+use Cebugle\Totem\Totem;
 
 class AuthTest extends TestCase
 {

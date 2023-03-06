@@ -1,10 +1,10 @@
 <?php
 
-namespace Studio\Totem\Providers;
+namespace Cebugle\Totem\Providers;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Route;
-use Studio\Totem\Task;
+use Cebugle\Totem\Task;
 
 class TotemRouteServiceProvider extends RouteServiceProvider
 {
@@ -15,7 +15,7 @@ class TotemRouteServiceProvider extends RouteServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Studio\Totem\Http\Controllers';
+    protected $namespace = 'Cebugle\Totem\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

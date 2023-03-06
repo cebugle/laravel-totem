@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio\Totem\Http\Requests;
+namespace Cebugle\Totem\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

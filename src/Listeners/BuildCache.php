@@ -1,8 +1,8 @@
 <?php
 
-namespace Studio\Totem\Listeners;
+namespace Cebugle\Totem\Listeners;
 
-use Studio\Totem\Events\Event;
+use Cebugle\Totem\Events\Event;
 
 class BuildCache extends Listener
 {

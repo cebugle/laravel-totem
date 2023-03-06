@@ -1,24 +1,24 @@
 <?php
 
-namespace Studio\Totem\Repositories;
+namespace Cebugle\Totem\Repositories;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Cache;
-use Studio\Totem\Contracts\TaskInterface;
-use Studio\Totem\Events\Activated;
-use Studio\Totem\Events\Created;
-use Studio\Totem\Events\Creating;
-use Studio\Totem\Events\Deactivated;
-use Studio\Totem\Events\Deleted;
-use Studio\Totem\Events\Deleting;
-use Studio\Totem\Events\Executed;
-use Studio\Totem\Events\Updated;
-use Studio\Totem\Events\Updating;
-use Studio\Totem\Result;
-use Studio\Totem\Task;
+use Cebugle\Totem\Contracts\TaskInterface;
+use Cebugle\Totem\Events\Activated;
+use Cebugle\Totem\Events\Created;
+use Cebugle\Totem\Events\Creating;
+use Cebugle\Totem\Events\Deactivated;
+use Cebugle\Totem\Events\Deleted;
+use Cebugle\Totem\Events\Deleting;
+use Cebugle\Totem\Events\Executed;
+use Cebugle\Totem\Events\Updated;
+use Cebugle\Totem\Events\Updating;
+use Cebugle\Totem\Result;
+use Cebugle\Totem\Task;
 
 class EloquentTaskRepository implements TaskInterface
 {

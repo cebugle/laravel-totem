@@ -1,9 +1,9 @@
 <?php
 
-namespace Studio\Totem\Events;
+namespace Cebugle\Totem\Events;
 
 use Illuminate\Broadcasting\PrivateChannel;
-use Studio\Totem\Task;
+use Cebugle\Totem\Task;
 
 class Updating extends BroadcastingEvent
 {

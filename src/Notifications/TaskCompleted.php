@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio\Totem\Notifications;
+namespace Cebugle\Totem\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

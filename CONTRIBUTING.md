@@ -1,6 +1,6 @@
-# Code Studio Contribution Guide
+# Cebugle Contribution Guide
 
-This page contains guidelines for contributing to the Code Studio packages. Please review these guidelines before submitting any pull requests to the package.
+This page contains guidelines for contributing to the Cebugle packages. Please review these guidelines before submitting any pull requests to the package.
 
 ## Which Branch?
 
@@ -18,4 +18,4 @@ If you have an idea for a new feature you would like to see added to the package
 
 ## Coding Guidelines
 
-Code Studio follows the [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) and [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md) and laravel coding standards.
+Cebugle follows the [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) and [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md) and laravel coding standards.

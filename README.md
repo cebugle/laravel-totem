@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://github.com/codestudiohq/laravel-totem/blob/8.0/resources/assets/img/totem.png?raw=true" alt="Laravel Totem"/>
+  <img src="https://github.com/cebugle/laravel-totem/blob/8.0/resources/assets/img/totem.png?raw=true" alt="Laravel Totem"/>
 </p>
 <p align="center">
-<img src="https://github.com/codestudiohq/laravel-totem/workflows/Laravel/badge.svg?branch=8.0" alt="Build Status">
-<a href="https://packagist.org/packages/studio/laravel-totem"><img src="https://poser.pugx.org/studio/laravel-totem/license.svg" alt="License"></a>
+<img src="https://github.com/cebugle/laravel-totem/workflows/Laravel/badge.svg?branch=8.0" alt="Build Status">
+<a href="https://packagist.org/packages/cebugle/laravel-totem"><img src="https://poser.pugx.org/cebugle/laravel-totem/license.svg" alt="License"></a>
 </p>
 
 # Introduction
@@ -17,32 +17,18 @@ Manage your `Laravel Schedule` from a pretty dashboard. Schedule your `Laravel C
 #### Compatiblity Matrix
 
 | <span align="left">Laravel</span> | <span align="left">Totem</span> |
-| :-------------------------------- | ------------------------------: |
-| 9.x                               |                             9.x |
-| 8.x                               |                             8.x |
-| 7.x                               |                             7.x |
-| 6.x                               |                             6.x |
-| 5.8                               |                             5.x |
-| 5.7                               |                             4.x |
-| 5.6                               |                             3.x |
-| 5.5                               |                             2.x |
-| 5.4                               |                             1.x |
+|:----------------------------------|--------------------------------:|
+| 10.x                              |                             1.x |
 
 #### Installing
 
-`Totem` requires Laravel v5.4 and above, please refer to the above table for compatability. Use composer to install totem to your Laravel project
+`Totem` requires Laravel v10.0 and above, please refer to the above table for compatability. Use composer to install totem to your Laravel project
 
 ```
-composer require studio/laravel-totem
+composer require cebugle/laravel-totem
 ```
 
-> Laravel Totem supports auto package discovery for Laravel v5.5+, therefore service provider registration is not required in Laravel v5.5+
-
-Add `TotemServiceProvider` to the `providers` array of your Laravel v5.4 application's config/app.php
-
-```php
-Studio\Totem\Providers\TotemServiceProvider::class,
-```
+> Laravel Totem supports auto package discovery, therefore service provider registration is not required.
 
 Once `Laravel Totem` is installed & registered,
 
@@ -60,7 +46,7 @@ php artisan totem:assets
 
 ##### Table Prefix
 
-Totems' tables use generic names which may conflict with existing tables in a project. To alleviate this the `.env` param `TOTEM_TABLE_PREFIX` can be set which will apply a prefix to all of Totems tables and their models.
+Totems' tables use generic names which may conflict with existing tables in a project. To alleviate this the `.env` param `TOTEM_TABLE_PREFIX` can be set which will apply a prefix to all Totems tables and their models.
 
 #### Updating
 
@@ -74,7 +60,7 @@ php artisan totem:assets
 
 ##### Cron Job
 
-This package assumes that you have a good understanding of [Laravel's Task Scheduling](https://laravel.com/docs/5.4/scheduling) and [Laravel Console Commands](https://laravel.com/docs/5.4/artisan#writing-commands). Before any of this works please make sure you have a cron running as follows:
+This package assumes that you have a good understanding of [Laravel's Task Scheduling](https://laravel.com/docs/10.x/scheduling) and [Laravel Console Commands](https://laravel.com/docs/10.x/artisan#writing-commands). Before any of this works please make sure you have a cron running as follows:
 
 ```
 * * * * * php /path-to-your-project/artisan schedule:run >> /dev/null 2>&1
@@ -85,7 +71,7 @@ This package assumes that you have a good understanding of [Laravel's Task Sched
 `Laravel Totem`'s dashboard is inspired by `Laravel Horizon`. Just like Horizon you can configure authentication to `Totem`'s dashboard. Add the following to the boot method of your AppServiceProvider or wherever you might seem fit.
 
 ```php
-use Studio\Totem\Totem;
+use Cebugle\Totem\Totem;
 
 Totem::auth(function($request) {
     // return true / false . For e.g.
@@ -165,19 +151,19 @@ php artisan schedule:list
 
 ##### Task List
 
-<img src="https://github.com/codestudiohq/laravel-totem/blob/1.0/public/img/screenshots/tasks.png?raw=true" alt="Task List"/>
+<img src="https://github.com/cebugle/laravel-totem/blob/1.0/public/img/screenshots/tasks.png?raw=true" alt="Task List"/>
 
 ##### Task Details
 
-<img src="https://github.com/codestudiohq/laravel-totem/blob/1.0/public/img/screenshots/task-details.png?raw=true" alt="Task List"/>
+<img src="https://github.com/cebugle/laravel-totem/blob/1.0/public/img/screenshots/task-details.png?raw=true" alt="Task List"/>
 
 ##### Edit Task
 
-<img src="https://github.com/codestudiohq/laravel-totem/blob/1.0/public/img/screenshots/edit-task.png?raw=true" alt="Task List"/>
+<img src="https://github.com/cebugle/laravel-totem/blob/1.0/public/img/screenshots/edit-task.png?raw=true" alt="Task List"/>
 
 ##### Artisan Command to view scheduled tasks
 
-<img src="https://github.com/codestudiohq/laravel-totem/blob/1.0/public/img/screenshots/artisan.png?raw=true" alt="Task List"/>
+<img src="https://github.com/cebugle/laravel-totem/blob/1.0/public/img/screenshots/artisan.png?raw=true" alt="Task List"/>
 
 ## Changelog
 
@@ -186,7 +172,7 @@ Important versions listed below. Refer to the [Changelog](CHANGELOG.md) for a fu
 ## Credits
 
 - [Roshan Gautam](https://twitter.com/@roshangautam)
-- [OSS Contributors](https://github.com/codestudiohq/laravel-totem/graphs/contributors)
+- [OSS Contributors](https://github.com/cebugle/laravel-totem/graphs/contributors)
 
 Bug reports, feature requests, and pull requests can be submitted by following our [Contribution Guide](CONTRIBUTING.md).
 

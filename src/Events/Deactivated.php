@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio\Totem\Events;
+namespace Cebugle\Totem\Events;
 
 class Deactivated extends BroadcastingEvent
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Studio\Totem\Providers;
+namespace Cebugle\Totem\Providers;
 
 use Cron\CronExpression;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
-use Studio\Totem\Console\Commands\ListSchedule;
-use Studio\Totem\Console\Commands\PublishAssets;
-use Studio\Totem\Contracts\TaskInterface;
-use Studio\Totem\Repositories\EloquentTaskRepository;
+use Cebugle\Totem\Console\Commands\ListSchedule;
+use Cebugle\Totem\Console\Commands\PublishAssets;
+use Cebugle\Totem\Contracts\TaskInterface;
+use Cebugle\Totem\Repositories\EloquentTaskRepository;
 
 class TotemServiceProvider extends ServiceProvider
 {

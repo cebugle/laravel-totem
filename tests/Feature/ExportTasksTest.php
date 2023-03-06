@@ -1,10 +1,10 @@
 <?php
 
-namespace Studio\Totem\Tests\Feature;
+namespace Cebugle\Totem\Tests\Feature;
 
 use Carbon\Carbon;
-use Studio\Totem\Task;
-use Studio\Totem\Tests\TestCase;
+use Cebugle\Totem\Task;
+use Cebugle\Totem\Tests\TestCase;
 
 class ExportTasksTest extends TestCase
 {

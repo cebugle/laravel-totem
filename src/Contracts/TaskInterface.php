@@ -1,10 +1,10 @@
 <?php
 
-namespace Studio\Totem\Contracts;
+namespace Cebugle\Totem\Contracts;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
-use Studio\Totem\Task;
+use Cebugle\Totem\Task;
 
 interface TaskInterface
 {

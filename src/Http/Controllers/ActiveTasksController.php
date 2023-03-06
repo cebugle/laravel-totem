@@ -1,10 +1,10 @@
 <?php
 
-namespace Studio\Totem\Http\Controllers;
+namespace Cebugle\Totem\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Studio\Totem\Contracts\TaskInterface;
+use Cebugle\Totem\Contracts\TaskInterface;
 
 class ActiveTasksController extends Controller
 {

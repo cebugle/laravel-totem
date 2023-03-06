@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio\Totem\Providers;
+namespace Cebugle\Totem\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

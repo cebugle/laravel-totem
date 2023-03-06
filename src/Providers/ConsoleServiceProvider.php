@@ -1,12 +1,12 @@
 <?php
 
-namespace Studio\Totem\Providers;
+namespace Cebugle\Totem\Providers;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\ServiceProvider;
-use Studio\Totem\Events\Executed;
-use Studio\Totem\Events\Executing;
-use Studio\Totem\Totem;
+use Cebugle\Totem\Events\Executed;
+use Cebugle\Totem\Events\Executing;
+use Cebugle\Totem\Totem;
 
 class ConsoleServiceProvider extends ServiceProvider
 {

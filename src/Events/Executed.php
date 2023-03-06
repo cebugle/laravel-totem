@@ -1,9 +1,9 @@
 <?php
 
-namespace Studio\Totem\Events;
+namespace Cebugle\Totem\Events;
 
-use Studio\Totem\Notifications\TaskCompleted;
-use Studio\Totem\Task;
+use Cebugle\Totem\Notifications\TaskCompleted;
+use Cebugle\Totem\Task;
 
 class Executed extends BroadcastingEvent
 {

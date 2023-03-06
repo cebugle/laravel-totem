@@ -1,10 +1,10 @@
 <?php
 
-namespace Studio\Totem\Http\Controllers;
+namespace Cebugle\Totem\Http\Controllers;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
-use Studio\Totem\Contracts\TaskInterface;
-use Studio\Totem\Http\Requests\ImportRequest;
+use Cebugle\Totem\Contracts\TaskInterface;
+use Cebugle\Totem\Http\Requests\ImportRequest;
 
 class ImportTasksController extends Controller
 {

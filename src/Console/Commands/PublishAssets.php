@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio\Totem\Console\Commands;
+namespace Cebugle\Totem\Console\Commands;
 
 use Illuminate\Console\Command;
 

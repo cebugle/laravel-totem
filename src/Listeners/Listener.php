@@ -1,10 +1,10 @@
 <?php
 
-namespace Studio\Totem\Listeners;
+namespace Cebugle\Totem\Listeners;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Studio\Totem\Contracts\TaskInterface;
+use Cebugle\Totem\Contracts\TaskInterface;
 
 class Listener implements ShouldQueue
 {

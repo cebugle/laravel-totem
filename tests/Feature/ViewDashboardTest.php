@@ -1,11 +1,11 @@
 <?php
 
-namespace Studio\Totem\Tests\Feature;
+namespace Cebugle\Totem\Tests\Feature;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Studio\Totem\Result;
-use Studio\Totem\Task;
-use Studio\Totem\Tests\TestCase;
+use Cebugle\Totem\Result;
+use Cebugle\Totem\Task;
+use Cebugle\Totem\Tests\TestCase;
 
 class ViewDashboardTest extends TestCase
 {

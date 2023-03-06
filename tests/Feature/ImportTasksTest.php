@@ -1,13 +1,13 @@
 <?php
 
-namespace Studio\Totem\Tests\Feature;
+namespace Cebugle\Totem\Tests\Feature;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Event;
-use Studio\Totem\Events\Created;
-use Studio\Totem\Events\Creating;
-use Studio\Totem\Task;
-use Studio\Totem\Tests\TestCase;
+use Cebugle\Totem\Events\Created;
+use Cebugle\Totem\Events\Creating;
+use Cebugle\Totem\Task;
+use Cebugle\Totem\Tests\TestCase;
 
 class ImportTasksTest extends TestCase
 {

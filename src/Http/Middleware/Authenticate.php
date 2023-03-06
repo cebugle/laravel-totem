@@ -1,11 +1,11 @@
 <?php
 
-namespace Studio\Totem\Http\Middleware;
+namespace Cebugle\Totem\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Studio\Totem\Totem;
+use Cebugle\Totem\Totem;
 
 class Authenticate
 {

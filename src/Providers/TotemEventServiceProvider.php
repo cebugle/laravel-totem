@@ -1,16 +1,16 @@
 <?php
 
-namespace Studio\Totem\Providers;
+namespace Cebugle\Totem\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider;
 
 class TotemEventServiceProvider extends EventServiceProvider
 {
     protected $listen = [
-        'Studio\Totem\Events\Created'     => ['Studio\Totem\Listeners\BustCache', 'Studio\Totem\Listeners\BuildCache'],
-        'Studio\Totem\Events\Updated'     => ['Studio\Totem\Listeners\BustCache', 'Studio\Totem\Listeners\BuildCache'],
-        'Studio\Totem\Events\Activated'   => ['Studio\Totem\Listeners\BustCache', 'Studio\Totem\Listeners\BuildCache'],
-        'Studio\Totem\Events\Deactivated' => ['Studio\Totem\Listeners\BustCache', 'Studio\Totem\Listeners\BuildCache'],
-        'Studio\Totem\Events\Deleting'    => ['Studio\Totem\Listeners\BustCacheImmediately'],
+        'Cebugle\Totem\Events\Created'     => ['Cebugle\Totem\Listeners\BustCache', 'Cebugle\Totem\Listeners\BuildCache'],
+        'Cebugle\Totem\Events\Updated'     => ['Cebugle\Totem\Listeners\BustCache', 'Cebugle\Totem\Listeners\BuildCache'],
+        'Cebugle\Totem\Events\Activated'   => ['Cebugle\Totem\Listeners\BustCache', 'Cebugle\Totem\Listeners\BuildCache'],
+        'Cebugle\Totem\Events\Deactivated' => ['Cebugle\Totem\Listeners\BustCache', 'Cebugle\Totem\Listeners\BuildCache'],
+        'Cebugle\Totem\Events\Deleting'    => ['Cebugle\Totem\Listeners\BustCacheImmediately'],
     ];
 }

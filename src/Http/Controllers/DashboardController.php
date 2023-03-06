@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio\Totem\Http\Controllers;
+namespace Cebugle\Totem\Http\Controllers;
 
 use Illuminate\Http\RedirectResponse;
 

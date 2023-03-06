@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio\Totem\Tests;
+namespace Cebugle\Totem\Tests;
 
 use Collective\Html\FormFacade;
 use Collective\Html\HtmlFacade;
@@ -8,9 +8,9 @@ use Collective\Html\HtmlServiceProvider;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Support\Facades\Auth;
 use Orchestra\Testbench\Exceptions\Handler;
-use Studio\Totem\Providers\TotemServiceProvider;
-use Studio\Totem\Totem;
-use Studio\Totem\User;
+use Cebugle\Totem\Providers\TotemServiceProvider;
+use Cebugle\Totem\Totem;
+use Cebugle\Totem\User;
 use Throwable;
 
 class TestCase extends \Orchestra\Testbench\TestCase

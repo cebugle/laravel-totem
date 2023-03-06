@@ -1,9 +1,9 @@
 <?php
 
-namespace Studio\Totem\Listeners;
+namespace Cebugle\Totem\Listeners;
 
 use Illuminate\Container\Container;
-use Studio\Totem\Events\Event;
+use Cebugle\Totem\Events\Event;
 
 class BustCacheImmediately
 {

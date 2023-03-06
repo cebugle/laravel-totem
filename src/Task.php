@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio\Totem;
+namespace Cebugle\Totem;
 
 use Carbon\Carbon;
 use Cron\CronExpression;
@@ -10,8 +10,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Str;
-use Studio\Totem\Traits\FrontendSortable;
-use Studio\Totem\Traits\HasFrequencies;
+use Cebugle\Totem\Traits\FrontendSortable;
+use Cebugle\Totem\Traits\HasFrequencies;
 
 class Task extends TotemModel
 {
